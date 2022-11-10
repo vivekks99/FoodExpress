@@ -1,0 +1,48 @@
+.cart-not-empty{
+    width: 75%;
+}
+.order-summary{
+    margin-bottom: 50px;
+}
+.order-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ordered-food{
+    margin-top: 25px;
+}
+.order-section{
+    font-size: 1.2rem;
+}
+.order-pic{
+    width: 200px;
+}
+
+@media only screen and (max-width:768px) {
+    .cart-not-empty{
+        width: 90%;
+    }
+    .order-section{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:500px) {
+    .cart-not-empty{
+        width: 95%;
+    }
+    .order-pic{
+        width: 150px;
+    }
+}
+@media only screen and (max-width:400px) {
+    .cart-not-empty{
+        width: 100%;
+    }
+    .order-pic{
+        width: 120px;
+    }
+    .order-section{
+        font-size: 0.8rem;
+    }
+}

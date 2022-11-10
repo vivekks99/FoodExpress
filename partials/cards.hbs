@@ -1,0 +1,23 @@
+
+<div class="container">
+    <div class="menu-heading">
+        <h1>Our Menu</h1>
+    </div>
+    <div class="container-items">
+        {{#each menu_data}}
+            <div class="cards">
+                <img src="/images/{{this.image}}" alt="" class="pic">
+                <div class="card-content">
+                    <h1 class="title">{{this.name}}</h1>
+                    <p class="description">{{this.description}}</p>
+                    <div class="card-footer">
+                        <p class="price"> {{this.price}} </p>
+                        <div class="order-btn"><a href="/cart/{{this.pdtId}}" class="card-btn">Add to Cart</a></div>
+                    </div>
+                </div>
+            </div>
+        {{/each }}
+    </div>
+</div>
+
+<script src="/js/app.js"></script>

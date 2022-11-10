@@ -1,0 +1,42 @@
+.links-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+.links-container h1{
+    font-size: 3rem;
+}
+
+.social-links .fab{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.social-links .social-links a{
+    color: rgb(190, 177, 177);
+    font-size: 2rem;
+}
+
+a .fa-facebook:hover{
+    color: #3b5998;
+    transition-duration: 0.4s;
+}
+a .fa-instagram-square:hover{
+    color: #cd486b ;
+    transition-duration: 0.4s;
+}
+a .fa-youtube:hover{
+    color: #FF0000;
+    transition-duration: 0.4s;
+}
+a .fa-pinterest:hover{
+    color: #E60023;
+    transition-duration: 0.4s;
+}
+
+@media only screen and (max-width:768px) {
+    .links-container h1{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/cart.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Cart</title>
+</head>
+
+<body>
+    {{>navbar}}
+    {{!-- <div class="container w-1/2 m-auto h-screen py-5">
+        <div class="cart-empty">
+            <div class="cart-content">
+                <p>Cart Empty!</p>
+                <p>Looks like you haven't ordered anything.</p>
+                <p>Go to main page to order.</p>
+            </div>
+            <div class="cart-img">
+                <img src="/images/empty-cart.jpg" alt="" class="h-full">
+            </div>
+        </div>
+    </div> --}}
+    <div class="cart-not-empty mt-8 mx-auto h-screen py-5">
+        <div class="order-summary">
+            <h1 class="text-4xl text-orange-600 font-bold">Order Summary</h1>
+        </div>
+        <div class="ordered-food">
+            {{#with fooditem_detail}}
+                <div class="order-section">
+                    <div class="order-pic">
+                        <img src="/images{{this.image}}" alt="">
+                    </div>
+                    <div class="order-description">
+                        <p>{{this.name}}</p>
+                    </div>
+                    <div class="order-qty">
+                        <p>1 Pcs</p>
+                    </div>
+                    <div class="order-price">
+                        <p>{{this.price}}</p>
+                    </div>
+                </div>
+            {{/with}}
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+.container{
+    background-color: rgb(244, 247, 250);
+    margin: auto;
+}
+
+
+/* content */
+
+.animation-icon{
+    width: 250px;
+    height: 100px;
+    position: relative;
+    /* animation-name: food_icon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in; */
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+.food-icon{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+
+
+/* card */
+
+.card{
+    box-shadow: 10px 10px 40px #1b1919;
+}
+.card img{
+    height: 275px;
+    width: 100%;
+}
+
+.card-btn{
+    background-color: #dd6b20;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: solid 2px #dd6b20;
+    border-radius: 10px;
+}
+.card-btn:hover{
+    background-color: white;
+    color: #dd6b20;
+    transition: all 0.3s ease-out;
+}

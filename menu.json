@@ -1,0 +1,181 @@
+{
+    "main_menu": [
+        {
+            "name": "Pizza",
+            "image": "/menu/pizza.jpg",
+            "link": "/pizza"
+        },
+        {
+            "name": "Burger",
+            "image": "/menu/burger.jpg",
+            "link": "/burger"
+    
+        },
+        {
+            "name": "Noodles",
+            "image": "/menu/noodles.jpg",
+            "link": "/noodles"
+        },
+        {
+            "name": "Desserts",
+            "image": "/menu/desserts.jpg",
+            "link": "/desserts"
+        },
+        {
+            "name": "Others",
+            "image": "/menu/others.jpg",
+            "link": "/others"
+        },
+        {
+            "name": "Meals",
+            "image": "/menu/meals.jpg",
+            "link": "/meals"
+        }
+    ],
+    "pizza": [
+        {
+            "pdtId": "pizza-0",
+            "name": "Paneer Pizza",
+            "image": "/pizza/paneer-pizza.jpg",
+            "description": "Large",
+            "price": "Rs. 350",
+            "category": "pizza"
+        },
+        {
+            "pdtId": "pizza-1",
+            "name": "Mushroom Pizza",
+            "image": "/pizza/mushroom-pizza.jpg",
+            "description": "Medium",
+            "price": "Rs. 190",
+            "category": "pizza"
+        },
+        {
+            "pdtId": "pizza-2",
+            "name": "Pineapple Pizza",
+            "image": "/pizza/pineapple-pizza.jpg",
+            "description": "Large",
+            "price": "Rs. 280",
+            "category": "pizza"
+        },
+        {
+            "pdtId": "pizza-3",
+            "name": "BBQ Chicken Pizza",
+            "image": "/pizza/bbq-chicken-pizza.jpg",
+            "description": "Large",
+            "price": "Rs. 385",
+            "category": "pizza"
+        },
+        {
+            "pdtId": "pizza-4",
+            "name": "Corn Pizza",
+            "image": "/pizza/corn-pizza.jpg",
+            "description": "Medium",
+            "price": "Rs. 170",
+            "category": "pizza"
+        }
+    ],
+    "burger": [
+        {
+            "name": "Veg Burger",
+            "image": "/burger/veg-burger.jpg",
+            "price": "Rs. 40",
+            "category": "burger"
+        },
+        {
+            "name": "McAloo Tikki",
+            "image": "/burger/mc-aloo-tikki.jpg",
+            "price": "Rs. 60",
+            "category": "burger"
+        },
+        {
+            "name": "Chicken Burger",
+            "image": "/burger/chicken-burger.jpg",
+            "price": "Rs. 50",
+            "category": "burger"
+        },
+        {
+            "name": "Chicken Maharaja",
+            "image": "/burger/chicken-maharaja.jpg",
+            "price": "Rs. 75",
+            "category": "burger"
+        },
+        {
+            "name": "Cheese Burger",
+            "image": "/burger/cheese-burger.jpg",
+            "price": "Rs. 75",
+            "category": "burger"
+        }
+    ],
+    "noodles":[
+        {
+            "name": "Chicken Noodles",
+            "image": "/noodles/chicken-noodles.jpg",
+            "price": "Rs. 150",
+            "category": "noodles"
+        },
+        {
+            "name": "Paneer Noodles",
+            "image": "/noodles/paneer-noodles.jpg",
+            "price": "Rs. 100",
+            "category": "noodles"
+        },
+        {
+            "name": "Mushroom Noodles",
+            "image": "/noodles/mushroom-noodles.jpg",
+            "price": "Rs. 125",
+            "category": "noodles"
+        },
+        {
+            "name": "Veggie Chowmein",
+            "image": "/noodles/veggie-chowmein.jpg",
+            "price": "Rs. 85",
+            "category": "noodles"
+        }
+    ],
+    "desserts":[
+        {
+            "name": "Chocolate Pastry",
+            "image": "/desserts/chocolate-pastry.jpg",
+            "price": "Rs. 50"
+        },
+        {
+            "name": "Dry Fruit Cake",
+            "image": "/desserts/dry-fruit-cake.jpg",
+            "price": "Rs. 75"
+        },
+        {
+            "name": "Vanilla Pastry",
+            "image": "/desserts/vanilla-pastry.jpg",
+            "price": "Rs. 40"
+        },
+        {
+            "name": "Donuts (4)",
+            "image": "/desserts/donut.jpg",
+            "price": "Rs. 100"
+        }
+    ],
+    "others":[
+        {
+            "name": "French Fries",
+            "image": "/others/french-fries.jpg",
+            "price": "Rs. 80"
+        },
+        {
+            "name": "Gralic Bread",
+            "image": "/others/garlic-bread.jpg",
+            "price": "Rs. 100"
+        }
+    ],
+    "meals":[
+        {
+            "name": "Kids Meal",
+            "image": "/meals/kids-meal.jpg",
+            "price": "Rs. 99"
+        },
+        {
+            "name": "Maharaja Meal",
+            "image": "/meals/maharaja-meal.jpg",
+            "price": "Rs. 499"
+        }
+    ]
+}

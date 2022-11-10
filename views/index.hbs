@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/cards.css">
+    <link rel="stylesheet" href="/css/links.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Fast Food</title>
+</head>
+
+<div>
+
+    {{>navbar}}
+
+    <div class="container">
+        <div
+            class="container-section w-full p-5 sm:p-10 md:p-16 lg:p-24 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2">
+            <div class="content-container flex flex-wrap items-center justify-around">
+                <div class="content flex flex-col justify-center">
+                    <h1 class="text-4xl text-orange-600 font-bold my-3">Food Express</h1>
+                    <p class="my-3">Quick Fast Food at your <span class="font-bold text-orange-600">doorstep</span></p>
+                    <p class="my-3">Dedicated to hygenic and fastest food delivery.</p>
+                </div>
+                <div class="animation-icon flex items-center justify-center">
+                    <img src="/images/food-icon.jpg" alt="" class="food-icon">
+                </div>
+            </div>
+            <div class="side-img order-1 sm:order-2">
+                <img src="/images/fast-food.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <hr class="border-solid border-black">
+
+
+    <div class="container justify-center">
+        <div class="menu-heading">
+            <h1>Our Menu</h1>
+        </div>
+        <div class="container-items">
+            {{#each menu_data}}
+            <div class="cards">
+                <img src="/images/{{image}}" alt="" class="pic">
+                <div class="card-content flex flex-row items-baseline flex-wrap justify-around">
+                    <h1 class="title">{{name}}</h1>
+                    <div class="order-btn"><a href={{link}} target="_" class="card-btn text-lg">Add to Cart</a></div>
+                </div>
+            </div>
+            {{/each }}
+        </div>
+    </div>
+
+    <div class="about-container">
+        <h1>ABOUT US</h1>
+        <div class="about-section">
+            <img src="/images/bg.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel et maiores odio pariatur quas assumenda
+                tempora nemo, quis?</p>
+        </div>
+    </div>
+
+    {{>links}}
+    {{>footer}}
+
+    </body>
+
+</html>

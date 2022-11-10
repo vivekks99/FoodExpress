@@ -1,0 +1,94 @@
+.menu-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #dd6b20;
+    font-size: 3rem;
+    padding-top: 5%;
+    font-weight: bolder;
+}
+
+
+/* ******************* Items *********************** */
+
+.container-items{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 3% 0;
+}
+.cards{
+    margin: 15px;
+    width: 350px;
+    height: 100%;
+    box-shadow: 10px 10px 40px #3f3737;
+}
+.cards .pic{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px 10px;
+    font-size: 2rem;
+}
+.card-content .title{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 0px 0 20px 0;
+}
+.card-content .description{
+    font-weight: bold;
+    color: gray;
+    font-size: 1rem;
+}
+.card-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.card-footer .price{
+    margin: 8px 0 8px 0;
+    font-size: 1.2rem;
+}
+.card-footer .order-btn{
+    margin: 8px 0 8px 0;
+    font-size: 1.3rem;
+}
+.card-footer .order-btn a{
+    text-decoration: none;
+}
+
+
+/* *********************** Items using media queries ************************* */
+
+/* @media only screen and (max-width:1536px) {
+    .container-items{
+        justify-content: center;
+    }
+} */
+@media only screen and (max-width:1030px) {
+    .container-items{
+        width: 95%;
+        margin: 0;
+        justify-content: center;
+    }
+    .cards{
+        width: 250px;
+    }
+}
+@media only screen and (min-width:590px) {
+    .cards .pic{
+        height: 225px;
+    }
+}
