@@ -1,0 +1,32 @@
+.checkout-container{
+    min-height: 75dvh;
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+}
+.order-summary h1{
+    margin-bottom: 0.5rem;
+}
+.payment-mode{
+    padding: 2rem 0;
+    display: flex;
+    gap: 2rem;
+}
+.payment-mode .title{
+    color: #4a5568;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.payment-mode .cash, .card{
+    margin-bottom: 1rem;
+}
+.checkout-btn{
+    border: none;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    font-size: .9rem;
+    outline: none;
+    padding: 1rem 1.2rem;
+    color: #292524;
+    background-color: #facc15;
+}

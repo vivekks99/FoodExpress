@@ -1,0 +1,78 @@
+.slider-container {
+    box-shadow: 10px 10px 40px #ddd;
+}
+.slider-container .slider{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+
+.slider-container .image-container {
+    white-space: nowrap;
+    transition: transform 0.5s ease;
+}
+
+.slider-container .image-container img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.slider-container .arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-container .left,
+.slider-container .right {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    color: #292524;
+    background-color: #facc15;
+    padding: 0.33rem 0.75rem;
+}
+.slider-container .left:hover,
+.slider-container .right:hover{
+    color: #ddd;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.slider-container .dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.slider-container .dot {
+    display: inline-block;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    border: solid 1px #878787;
+}
+
+.slider-container .active {
+    background-color: #dd6b20;
+}
+
+@media only screen and (max-width:768px) {
+    .slider-container .slider {
+        width: 95%;
+    }
+    .slider-container .left,
+    .slider-container .right {
+        font-size: 1.2rem;
+        padding: 0.12rem 0.36rem;
+    }
+}

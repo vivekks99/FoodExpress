@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Admin",
+        "email": "admin@email.com",
+        "password": "123456789",
+        "isAdmin": "true"
+    },
+    {
+        "name": "Visitor",
+        "email": "visitor@email.com",
+        "password": "abcde",
+        "isAdmin": "false"
+    },
+    {
+        "name": "Max",
+        "email": "max@email.com",
+        "password": "123456",
+        "isAdmin": "false"
+    },
+    {
+        "name": "Shinzo",
+        "email": "shinzo@email.com",
+        "password": "123456",
+        "isAdmin": "false"
+    }
+]

@@ -1,0 +1,38 @@
+.empty-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10rem 0;
+    min-height: 75dvh;
+}
+.empty-cart img{
+    object-fit: cover;
+    object-position: center;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.empty-cart p{
+    position: absolute;
+    left: 5rem;
+    top: 10rem;
+    font-size: 2rem;
+}
+.cart-container{
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+    min-height: 75dvh;
+}
+.cart-header{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width:768px) {
+    .order-now-btn{
+        text-align: center;
+    }
+}

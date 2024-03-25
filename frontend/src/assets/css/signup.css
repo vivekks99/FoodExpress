@@ -1,0 +1,109 @@
+.register-container{
+    min-height: 75dvh;
+}
+.register-form {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.375rem;
+    padding: 2rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.register-container .email, .password, .login-submit{
+    margin-top: 1rem;
+}
+.register-container .input-group {
+    margin-bottom: 1rem;
+}
+
+.register-container label {
+    color: #4a5568;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.register-container input {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #cbd5e0;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 0.5rem;
+    color: #4a5568;
+    margin-top: 0.5rem;
+}
+
+.register-container .error-message {
+    color: #e53e3e;
+    font-size: 0.75rem;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.register-container .button-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register-button {
+    border: 2px solid #ed8936;
+    background-color: #ed8936;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #fff;
+    color: #ed8936;
+}
+
+.login-section {
+    display: flex;
+    align-items: center;
+}
+
+.register-container .login-text {
+    color: #4299e1;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.register-container .login-link {
+    color: #ed8936;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.register-container .login-link:hover {
+    color: #2b6cb0;
+}
+
+@media only screen and (max-width:768px) {
+    .register-form {
+        width: 80%;
+    }
+}
+@media only screen and (max-width:480px) {
+    .register-form {
+        width: 95%;
+    }
+    .login-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    .register-container .login-text {
+        text-align: right;
+    }
+}

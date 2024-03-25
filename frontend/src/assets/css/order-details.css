@@ -1,0 +1,28 @@
+.order-details-container{
+    width: 80%;
+    margin: auto;
+    min-height: 75dvh;
+    padding: 2rem 0;
+}
+.order-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-header .order-id{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.time-left{
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #cacaca;
+}
+.order-details-container .header{
+    font-weight: bold;
+    margin: 2rem 0 0.5rem 0;
+}
+.order-details-container .content{
+    color: #707070;
+}

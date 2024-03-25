@@ -1,0 +1,33 @@
+.order-card{
+    box-shadow: 10px 10px 40px #afa7a7;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.order-card .order-id{
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.order-card .order-name{
+    font-weight: bold;
+    padding-top: 1rem;
+}
+.order-status-btn{
+    padding: 1rem;
+    width: fit-content;
+}
+.order-card .view-details{
+    cursor: pointer;
+    color: #dd6b20;
+    font-weight: bold;
+}
+.order-card .footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.order-card .footer .price{
+    color: #878787;
+}

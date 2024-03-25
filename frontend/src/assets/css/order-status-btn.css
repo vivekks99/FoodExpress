@@ -1,0 +1,17 @@
+.order-status{
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+}
+.preparing{
+    background-color: #facc15;
+    color: #292524;
+}
+.dispatch{
+    background-color: #dd6b20;
+    color: #fff;
+}
+.delivered{
+    background-color: #22c55e;
+    color: #fff;
+}

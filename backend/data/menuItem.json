@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Pizza",
+        "image": "/pizza.jpg",
+        "endpoint": "/pizza"
+    },
+    {
+        "name": "Burger",
+        "image": "/burger.jpg",
+        "endpoint": "/burger"
+    },
+    {
+        "name": "Noodles",
+        "image": "/noodles.jpg",
+        "endpoint": "/noodles"
+    },
+    {
+        "name": "Desserts",
+        "image": "/desserts.jpg",
+        "endpoint": "/desserts"
+    },
+    {
+        "name": "Sides",
+        "image": "/sides.jpg",
+        "endpoint": "/sides"
+    }
+]

@@ -1,0 +1,33 @@
+.order-container{
+    width: 80%;
+    margin: auto;
+    min-height: 75dvh;
+    padding: 2rem 0;
+}
+.order-container .header{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+    background-color: #facc15;
+    margin-bottom: 2rem;
+}
+.order-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+}
+.no-orders{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1028px) {
+    .order-card-container{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+}
+@media only screen and (max-width:768px) {
+    .order-card-container{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+}

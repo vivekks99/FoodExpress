@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Paneer Pizza",
+        "image": "/pizza/paneer-pizza.jpg",
+        "price": 350,
+        "category": "pizza",
+        "description": "A mouthwatering pizza topped with chunks of paneer and savory sauce."
+    },
+    {
+        "name": "Mushroom Pizza",
+        "image": "/pizza/mushroom-pizza.jpg",
+        "price": 190,
+        "category": "pizza",
+        "description": "Delicious pizza with fresh mushrooms and melted cheese on a crispy crust."
+    },
+    {
+        "name": "Pineapple Pizza",
+        "image": "/pizza/pineapple-pizza.jpg",
+        "price": 280,
+        "category": "pizza",
+        "description": "A tropical twist on pizza with juicy pineapple slices and cheese."
+    },
+    {
+        "name": "BBQ Chicken Pizza",
+        "image": "/pizza/bbq-chicken-pizza.jpg",
+        "price": 385,
+        "category": "pizza",
+        "description": "Savor the flavor of BBQ chicken on a delectable pizza crust."
+    },
+    {
+        "name": "Corn Pizza",
+        "image": "/pizza/corn-pizza.jpg",
+        "price": 170,
+        "category": "pizza",
+        "description": "Enjoy the sweetness of corn kernels on a cheesy pizza."
+    },
+    {
+        "name": "Veg Burger",
+        "image": "/burger/veg-burger.jpg",
+        "price": 40,
+        "category": "burger",
+        "description": "A vegetarian delight packed with veggies and tangy sauces."
+    },
+    {
+        "name": "McAloo Tikki",
+        "image": "/burger/mc-aloo-tikki.jpg",
+        "price": 60,
+        "category": "burger",
+        "description": "A classic burger with aloo tikki, lettuce, and special sauces."
+    },
+    {
+        "name": "Chicken Burger",
+        "image": "/burger/chicken-burger.jpg",
+        "price": 50,
+        "category": "burger",
+        "description": "Indulge in a chicken burger with tender meat and fresh toppings."
+    },
+    {
+        "name": "Chicken Maharaja",
+        "image": "/burger/chicken-maharaja.jpg",
+        "price": 75,
+        "category": "burger",
+        "description": "Experience royalty with a hearty chicken burger fit for a Maharaja."
+    },
+    {
+        "name": "Cheese Burger",
+        "image": "/burger/cheese-burger.jpg",
+        "price": 75,
+        "category": "burger",
+        "description": "Satisfy your cheese cravings with this cheesy burger delight."
+    },
+    {
+        "name": "Chicken Noodles",
+        "image": "/noodles/chicken-noodles.jpg",
+        "price": 150,
+        "category": "noodles",
+        "description": "Tender chicken strips served on a bed of flavorful noodles."
+    },
+    {
+        "name": "Paneer Noodles",
+        "image": "/noodles/paneer-noodles.jpg",
+        "price": 100,
+        "category": "noodles",
+        "description": "Enjoy the goodness of paneer mixed with slurpy noodles."
+    },
+    {
+        "name": "Mushroom Noodles",
+        "image": "/noodles/mushroom-noodles.jpg",
+        "price": 125,
+        "category": "noodles",
+        "description": "A savory treat with mushrooms and noodles tossed in delicious sauce."
+    },
+    {
+        "name": "Veggie Chowmein",
+        "image": "/noodles/veggie-chowmein.jpg",
+        "price": 85,
+        "category": "noodles",
+        "description": "Delightful chowmein noodles cooked with colorful vegetables."
+    },
+    {
+        "name": "Chocolate Pastry",
+        "image": "/desserts/chocolate-pastry.jpg",
+        "price": 50,
+        "category": "desserts",
+        "description": "Indulge in the richness of chocolate with this delectable pastry."
+    },
+    {
+        "name": "Dry Fruit Cake",
+        "image": "/desserts/dry-fruit-cake.jpg",
+        "price": 75,
+        "category": "desserts",
+        "description": "A moist cake filled with a variety of dry fruits for a delightful crunch."
+    },
+    {
+        "name": "Vanilla Pastry",
+        "image": "/desserts/vanilla-pastry.jpg",
+        "price": 40,
+        "category": "desserts",
+        "description": "A classic pastry with the smooth flavor of vanilla."
+    },
+    {
+        "name": "Donuts (4)",
+        "image": "/desserts/donut.jpg",
+        "price": 100,
+        "category": "desserts",
+        "description": "Satisfy your sweet tooth with these fluffy donuts glazed to perfection."
+    },
+    {
+        "name": "French Fries",
+        "image": "/sides/french-fries.jpg",
+        "price": 80,
+        "category": "sides",
+        "description": "Golden and crispy fries, a perfect side for any meal."
+    },
+    {
+        "name": "Garlic Bread",
+        "image": "/sides/garlic-bread.jpg",
+        "price": 100,
+        "category": "sides",
+        "description": "Toasted bread infused with aromatic garlic butter for a flavorful snack."
+    }
+]

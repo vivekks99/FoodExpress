@@ -1,0 +1,17 @@
+.form-row{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.form-row label{
+    font-size: 1rem;
+}
+.form-row input{
+    font-size: 1rem;
+    padding: 0.8rem;
+    width: 100%;
+    margin-left: 1rem;
+    outline: none;
+    border: none;
+    background-color: #e3e3e3;
+}

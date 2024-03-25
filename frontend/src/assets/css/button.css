@@ -1,0 +1,40 @@
+.btn {
+    background-color: #dd6b20;
+    border: none;
+    border-radius: 0.7rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: .9rem;
+    outline: none;
+    padding: 1rem 1.2rem;
+}
+.primary{
+    background-color: #dd6b20;
+    color: #fff;
+}
+.primary:hover{
+    background-color: #dd6b20;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.secondary{
+    color: #292524;
+    background-color: #facc15;
+}
+.secondary:hover{
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.danger{
+    background-color: #da2424;
+    color: #fff;
+}
+.danger:hover{
+    background-color: #b41a1a;
+    transition: all 0.5s ease;
+}
+.disabled{
+    background-color: #8a8a8a;
+    color: #fff;
+    cursor: not-allowed;
+}
