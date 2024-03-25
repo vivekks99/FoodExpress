@@ -11,12 +11,14 @@ function MenuItems() {
 
   return (
     <>
-    {isLoading ? <Spinner /> : errorMessage ? <ErrorMessage errorStatus={errorStatus} errorStatusText={errorStatusText} message={errorMessage} /> :
-      <div id='menu-items' className="menuitems-container">
+    
+    <div id='menu-items' className="menuitems-container">
+      {isLoading ? <Spinner /> : errorMessage ? <ErrorMessage errorStatus={errorStatus} errorStatusText={errorStatusText} message={errorMessage} /> : <>
         <div className="header">OUR MENU</div>
         {menuItems?.data?.length === 0 ? <p className='no-items'>No Items Found</p> :
         <Cards menu={menuItems?.data} imgPath={'/images/menu'} />}
-    </div>}
+      </>}
+    </div>
     </>
   )
 }

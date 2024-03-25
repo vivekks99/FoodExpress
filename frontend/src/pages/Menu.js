@@ -15,7 +15,7 @@ function Menu() {
   return (
     <>
     {isLoading ? <Spinner /> : errorMessage ? <ErrorMessage errorStatus={errorStatus} errorStatusText={errorStatusText} message={errorMessage} /> :
-    <div id='menu' className="menuitems-container">
+    <div className="menuitems-container">
         <div className="header">{menu?.data?.[0]?.category}</div>
         {menu?.data?.length === 0 ? <p className='no-items'>No Items Found</p> :
         <Cards menu={menu?.data} imgPath={'/images'} />}
