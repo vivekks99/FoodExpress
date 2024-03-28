@@ -6,6 +6,10 @@
     height: 100px;
     background-color: white;
     box-shadow: 10px 10px 40px #afa7a7;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 .logo img {
